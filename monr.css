@@ -1,0 +1,213 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+
+.mon1{
+    background-image: url(mon3.jpg);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    width: 100%;
+    height: 100vh;
+    background-size: 100% 100%;
+    position: absolute;
+}
+
+
+.mon1{
+    text-align: center;
+    padding-top: 150px;
+    color: white;
+    position: fixed;
+    
+}
+
+
+.container-glass{
+
+    margin-left: 500px;
+    border: 2px solid #403b3b71;
+    width: 400px;
+    height: 550px;
+    border-radius: 20px;
+    position: relative;
+    backdrop-filter: blur(2.8px);
+    z-index: 3;
+
+
+}
+.container-glass img{
+    width: 150px;
+}
+
+
+
+
+.container-glass,h2{
+    padding-top: 20px;
+    font-family: "Poppins", sans-serif ;
+    color:#d2b48c;
+    letter-spacing: 3px;
+}
+.name{
+    padding-top: 30px;
+    padding-bottom: 10px;
+}
+
+.name input{
+    font-family: "Poppins", sans-serif ;
+    color: rgb(255, 255, 255);
+    border: 1px solid rgba(206, 203, 203, 0.873);
+    width: 300px;
+    height: 30px;
+    border-radius: 20px;
+    text-align: center;
+    background-color: transparent;
+
+
+}
+
+.name::placeholder{
+    text-align: center;
+    color: whitesmoker;
+
+    
+}
+
+.add{
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+.add input{
+    font-family: "Poppins", sans-serif ;
+    color: rgb(255, 255, 255);
+    border: 1px solid rgba(206, 203, 203, 0.873);
+    width: 300px;
+    height: 30px;
+    border-radius: 20px;
+    text-align: center;
+    background-color: transparent;
+
+
+}
+
+.add::placeholder{
+    text-align: center;
+    color: whitesmoker;
+
+    
+}
+
+
+
+.sta{
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+.sta input{
+    font-family: "Poppins", sans-serif ;
+    color: rgb(255, 255, 255);
+    border: 1px solid rgba(206, 203, 203, 0.873);
+    width: 300px;
+    height: 30px;
+    border-radius: 20px;
+    text-align: center;
+    background-color: transparent;
+
+
+}
+
+.sta::placeholder{
+    text-align: center;
+    color: whitesmoker;
+
+    
+}
+
+
+
+
+
+.pin{
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+.pin input{
+    font-family: "Poppins", sans-serif ;
+    color: white;
+    border: 1px solid rgba(206, 203, 203, 0.873);
+    width: 300px;
+    height: 30px;
+    border-radius: 20px;
+    text-align: center;
+    background-color: transparent;
+
+
+}
+
+.pin::placeholder{
+    text-align: center;
+   
+
+    
+}
+
+
+
+.for{
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+.for select{
+    font-family: "Poppins", sans-serif ;
+    color: rgb(255, 255, 255);
+    border: 1px solid rgba(206, 203, 203, 0.873);
+    width: 200px;
+    height: 30px;
+    border-radius: 20px;
+    text-align: center;
+    background-color: transparent;
+
+
+}
+
+.for option{
+    text-align: center;
+    color: rgb(227, 224, 224);
+    font-family: "Poppins", sans-serif ;
+
+    
+}
+
+
+.log {
+    padding-top: 40px;
+}
+
+
+
+.log a{
+    text-decoration: none;
+    color: #d2b48c;
+}
+
+.log button{
+    width: 300px;
+    height: 40px;
+    border: 2px solid #f0b05d;
+    background-color:#f0b05d;
+    color: black;
+    border-radius: 10px;
+    transition: 1s;
+}
+
+
+.log button:hover{
+    background-color: transparent;
+    color: whitesmoke;
+}

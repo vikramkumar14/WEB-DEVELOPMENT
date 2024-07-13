@@ -1,0 +1,217 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+
+
+nav{
+    display:flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: -130px;
+   
+    
+}
+li{
+    padding-right: 40px;
+}
+
+ nav img{
+    width: 190px;
+    padding-left: 40px;
+}
+
+ul,li,a{
+    display: inline-block;
+    color: rgb(255, 255, 255);
+    font-family:"Poppins", sans-serif;
+    text-decoration: none;
+}
+
+
+
+nav ul li::after{
+    content: '';
+    width: 0%;
+    height: 2px;
+    background: #d2b48c;
+    display: block;
+    margin: auto;
+    transition: 0.5s;
+}
+
+nav ul li:hover::after{
+    width: 100%;
+    
+
+}
+
+
+
+.mon1{
+    background-image: url(contactback.jpg);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    width: 100%;
+    height: 100vh;
+    background-size: 100% 100%;
+    position: absolute;
+}
+
+
+.mon1{
+    text-align: center;
+    padding-top: 150px;
+    color: white;
+    position: fixed;
+    
+}
+
+
+
+
+
+.container-glass{
+
+    margin-left: 500px;
+    padding-top: 30px;
+    border: 1.2px solid #403b3b63;
+    width: 400px;
+    height: 550px;
+    border-radius: 20px;
+    position: relative;
+    backdrop-filter: blur(9px);
+    z-index: 3;
+
+
+}
+.container-glass img{
+    width: 150px;
+}
+
+
+
+
+.container-glass,h2{
+    padding-top: 20px;
+    font-family: "Poppins", sans-serif ;
+    color:#000000;
+    letter-spacing: 3px;
+}
+.name{
+    padding-top: 30px;
+    padding-bottom: 10px;
+}
+
+.name input{
+    font-family: "Poppins", sans-serif ;
+    color: rgb(255, 255, 255);
+    border: 2px solid rgba(0, 0, 0, 0.873);
+    width: 300px;
+    height: 30px;
+    border-radius: 20px;
+    text-align: center;
+    background-color: transparent;
+
+
+}
+
+.name input::placeholder{
+    text-align: center;
+    color: #000000;
+    letter-spacing: 3px;
+
+    
+}
+
+.add{
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+.add input{
+    font-family: "Poppins", sans-serif ;
+    color: rgb(255, 255, 255);
+    border: 2px solid rgba(0, 0, 0, 0.873);
+    width: 300px;
+    height: 30px;
+    border-radius: 20px;
+    text-align: center;
+    background-color: transparent;
+
+
+}
+
+.add input::placeholder{
+    text-align: center;
+    color: black;
+    letter-spacing: 3px;
+
+    
+}
+
+
+
+.sta{
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+.sta input{
+    font-family: "Poppins", sans-serif ;
+    color: rgb(0, 0, 0);
+    border: 2px solid rgba(0, 0, 0, 0.873);
+    width: 300px;
+    height: 30px;
+    border-radius: 20px;
+    text-align: center;
+    background-color: transparent;
+
+
+}
+
+.sta input::placeholder{
+    text-align: center;
+    color: black;
+    letter-spacing: 3px;
+
+    
+}
+
+
+
+
+
+
+
+
+
+
+.log {
+    padding-top: 40px;
+}
+
+
+
+.log a{
+    text-decoration: none;
+    color: #d2b48c;
+}
+
+.log button{
+    width: 300px;
+    height: 40px;
+    border: 2px solid #f0b05d;
+    background-color:#f0b05d;
+    color: black;
+    border-radius: 10px;
+    letter-spacing: 2.5px;
+    transition: 1s;
+}
+
+
+.log button:hover{
+    background-color: transparent;
+    color: whitesmoke;
+}
